@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/udacity_image_view"
+        android:src="@drawable/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/udacity_text_view"
+        android:text="Hacking the future one course at a time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:typeface="serif"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/udacity_text_view"
+        android:text="Udacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:typeface="serif"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#a17eb5"
+        android:background="#f3ed97" />
+
+    <TextView
+        android:id="@+id/street_text_view"
+        android:text="2465 Latham St"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:typeface="serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#f6a96d"
+        android:background="#3fb56d" />
+
+    <TextView
+        android:id="@+id/city_text_view"
+        android:text="Mountain View, CA 94043"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:typeface="serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#f18da2"
+        android:background="#a17eb5"/>
+
+
+    <TextView
+        android:id="@+id/number_text_view"
+        android:text="650-555-5555"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:typeface="serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#f3ed97"
+        android:background="#22b2df" />
+
+
+</LinearLayout>
